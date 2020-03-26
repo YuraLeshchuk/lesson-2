@@ -29,7 +29,7 @@
     <section><h5>Біла</h5>
     <img src="img/duck-white.jpg" alt="Качка обикновенна">
     Рис.1 <em>Качка в природі</em> <q>Жива</q>
-    Це є позатаксономічна група птахів. <br>До качок належать галагази, черні, річкові качки, шавкуни, крехи й інші.
+    <p>Це є позатаксономічна група птахів. <br>До качок належать галагази, черні, річкові качки, шавкуни, крехи й інші.</p>
     </section>
 
     <section><h5>Не Біла, в кольорі</h5>
@@ -38,13 +38,30 @@
     </section>
 
     <footer>
-    <br><a href="https://www.youtube.com/watch?v=8-NmkB82WR0">Трошки фану в футері</a>
+    <figure>
+    <figcaption>Вітається:</figcaption>
+    <audio
+        controls
+        src="audio/duck.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+</figure>
     </footer>
 
     </article>
     </main>
 
-    <aside><h4>Додамо трохи цифр</h4>
+    <aside><h4>Додамо трохи цифр і данних</h4>
+    <label for="typeDuck">Яка ти качка по життю?:</label>
+    <input list="ducks" id="typeDuck" name="typeDuck" />
+    <datalist id="ducks">
+    <option value="Домашня Біла">
+    <option value="Домашня Кольорова">
+    <option value="Домашня Загоріла">
+    <option value="Я дікая вольна птіца">
+    <option value="Ти дорослий тіп, яка ше качка???">
+    </datalist>
 
     
     </aside>
