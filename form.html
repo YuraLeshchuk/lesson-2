@@ -69,24 +69,24 @@
             <h3>Введіть свої контактні дані для отримання подарунку:</h3>
             <label>
                 Твоє ім'я:
-                <br><input type="text" placeholder="Ім'я" required><br>
+                <br><input type="text" placeholder="Ім'я" name="Ім'я" required><br>
             </label><br>
             <label>
                 Твоя електронна скринька:
-               <br><input type="emai" placeholder="Email" required>
+               <br><input type="email" placeholder="Email" name="Email" required>
             </label><br><br>
             <label>Твоя дата народження:</label><br>
             <label>
-                <input type="date" id="birthday" name="birthday" required>
+                <input type="date" id="birthday" name="Дата народження" required>
             </label><br><br>
             <label>Твій номер телефону:</label><br>
                 <label>
-                <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+                <input type="tel" id="phone" name="Телефон" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
                 <small>Format: 123-456-7890</small>
             </label><br><br>
             <label for="Gender">Стать:</label>
             <label>
-            <input list="gender" id="Gender" name="Gender" required>
+            <input list="gender" id="Gender" name="Стать" required>
             <datalist id="gender">
             <option value="Чоловіча">
             <option value="Жіноча">
@@ -95,7 +95,7 @@
             </label><br><br>
             <label>Має запитання? Пиши, не встидайся:</label><br>
             <label>
-                <textarea name="message" style="width:175px; height:175px;"></textarea>
+                <textarea name="Повідомлення" style="width:175px; height:175px;"></textarea>
             </label><br>
             <input type="submit">
             <input type="reset">
