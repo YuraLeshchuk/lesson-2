@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,25 +15,90 @@
     </header><hr>
 
     <main>
-        <form>
-            <label>Батьківщина піци "Маргаритта"?:</label>
+        <form action="https://formspree.io/xaybkaee" method="POST">
+            <label>1. Батьківщина піци "Маргаритта"?:</label><br>
             <label>
                 <input type="radio" name="question-1" value="Неаполь">Неаполь
             </label>
             <label>
                 <input type="radio" name="question-1" value="Рим">Рим
-            </label><label>
+            </label>
+            <label>
                 <input type="radio" name="question-1" value="Флоренція">Неаполь
             </label><br><br>
-             <label>Від якого Італійського слова пішла назва pizza?:</label>
+            <label>2. Від якого Італійського слова пішла назва pizza?:</label><br>
             <label>
                 <input type="radio" name="question-2" value="Хліб">Хліб
             </label>
             <label>
                 <input type="radio" name="question-2" value="Круг">Круг
-            </label><label>
-                <input type="radio" name="question-2" value="Лоскут">Лоскут
             </label>
+            <label>
+                <input type="radio" name="question-2" value="Лоскут">Лоскут
+            </label><br><br>
+            <label>3. Який день тижня є днем піци?:</label><br>
+            <label>
+                <input type="radio" name="question-3" value="Понеділок">Понеділок
+            </label>
+            <label>
+                <input type="radio" name="question-3" value="Четвер">Четвер
+            </label>
+            <label>
+                <input type="radio" name="question-3" value="Субота">Субота
+            </label><br><br>
+            <label>4. Традиційна назва піци з морепродуктами?:</label><br>
+            <label>
+                <input type="radio" name="question-4" value="Маринада">Маринада
+            </label>
+            <label>
+                <input type="radio" name="question-4" value="Фрутті ді маре">Фрутті ді маре
+            </label>
+            <label>
+                <input type="radio" name="question-4" value="Кватро формаджі">Кватро формаджі
+            </label><br><br>
+            <label>5. Як називається закрита піца?:</label><br>
+            <label>
+                <input type="radio" name="question-5" value="Прошутто">Прошутто
+            </label>
+            <label>
+                <input type="radio" name="question-5" value="Кальцоне">Кальцоне
+            </label>
+            <label>
+                <input type="radio" name="question-5" value="Чебурек">Чебурек
+            </label><br><br>
+            <h3>Введіть свої контактні дані для отримання подарунку:</h3>
+            <label>
+                Твоє ім'я:
+                <br><input type="text" placeholder="Ім'я" required><br>
+            </label><br>
+            <label>
+                Твоя електронна скринька:
+               <br><input type="emai" placeholder="Email" required>
+            </label><br><br>
+            <label>Твоя дата народження:</label><br>
+            <label>
+                <input type="date" id="birthday" name="birthday" required>
+            </label><br><br>
+            <label>Твій номер телефону:</label><br>
+                <label>
+                <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+                <small>Format: 123-456-7890</small>
+            </label><br><br>
+            <label for="Gender">Стать:</label>
+            <label>
+            <input list="gender" id="Gender" name="Gender" required>
+            <datalist id="gender">
+            <option value="Чоловіча">
+            <option value="Жіноча">
+            <option value="Не визначився">
+            </datalist>
+            </label><br><br>
+            <label>Має запитання? Пиши, не встидайся:</label><br>
+            <label>
+                <textarea name="message" style="width:175px; height:175px;"></textarea>
+            </label><br>
+            <input type="submit">
+            <input type="reset">
         </form>
     </main>
     
